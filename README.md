@@ -1,4 +1,4 @@
-# MIUSEEC - FAQ
+# INTRANET - Example
 
 1 - Installer sass
     Une fois installé : 
