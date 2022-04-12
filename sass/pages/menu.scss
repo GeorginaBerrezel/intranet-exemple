@@ -1,0 +1,40 @@
+.content__infocard {
+  display: flex;
+}
+
+@media screen and (max-width: 700px) {
+  .content__infocard {   
+    flex-direction: column;
+  }
+}
+
+/*INFO BOX*/
+.info {
+  color: $white;
+  flex-direction: column;
+  margin: -0.5rem 1.5rem;
+  padding: 1.5rem;
+  width: 50%;
+}
+
+@media screen and (max-width: 700px) {
+  .info {  
+    padding: 0; 
+    width: auto;
+  }
+}
+
+.info__box {
+  background-color: #707070;
+  border: 1px solid $yellow;
+  border-radius: 0 30px 30px 30px;
+  display: block;
+  padding: 1.5rem;
+  overflow: scroll;
+  height: 150px;
+}
+
+.info__box--text {
+  display: block;
+  text-align: left;
+}

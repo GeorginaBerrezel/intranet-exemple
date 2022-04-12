@@ -1,0 +1,137 @@
+/* GENERAL */
+body {
+  background-color: $grey_background;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: $font_family2;
+  margin: 0;
+  padding: 0; 
+}
+  
+i {
+  cursor: pointer;
+}
+  
+h1 {
+  font-family: $font_family2;
+  color: #95989A;
+  font-size: 1.2rem;
+}
+  
+h2 {
+  font-family: $font_family;
+  color: $yellow;
+  font-weight: 800;
+}
+  
+h3 {
+  font-family: $font_family;
+  font-weight: 600;
+}
+  
+h4 {
+  color: $yellow_faq;
+  font-family: $font_family;
+  font-weight: 400;
+  margin-bottom: -0.5rem;
+}
+  
+h5 {
+  font-family: $font_family;
+  font-weight: 300;
+  font-size: 1em;
+}
+  
+p {
+  font-family: $font_family;
+  font-weight: 100; 
+}
+  
+a {
+  outline: none;
+  text-decoration: none;
+}
+  
+a:link {
+  color: $white;
+}
+  
+a:visited {
+  color: #95989A;
+}
+  
+a:active {
+  color: $yellow;
+  transition: 0.5s;
+}
+
+section {
+  margin-top: 128px;
+}
+
+/*CONTENU*/
+.container {
+  max-width: auto;
+}
+
+.content {
+  display: block;
+  margin: 0;
+  padding: 0 0 5rem 0;
+}
+
+/* Tous les TITRES centrés en haut de page */
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 0 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Texte de la page INDEX-OLD.HTML */
+.home__text {
+  max-width: 80%;
+  text-align: center;
+  color: $white;
+  padding: 2rem; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* TRAVAILLER A DARWIN */
+.title__section {
+  margin-top: 2rem;
+}
+  
+.title__section--picto {
+  background-color: $yellow;
+  border-radius: 400px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.125);
+  color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.1rem;
+  margin: auto;
+  padding: 0.3rem;
+  height: 60px;
+  width: 60px;
+}
+  
+.title__section--text {
+  color: $yellow;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+}
+
+/*Pages Working at darwin*/
+.workingatdarwin__text--onecolumn {
+  width: 50%;
+}
+
+@media screen and (max-width: 700px) {
+  .workingatdarwin__text--onecolumn {
+    width: 100%;
+  }
+}

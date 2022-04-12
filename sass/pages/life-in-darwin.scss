@@ -1,0 +1,63 @@
+details {
+    border: 1px solid $grey_logoreturn;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5rem -.5rem 0;
+    padding: .5em;
+}
+
+details[open] {
+    padding: 1rem;
+}
+
+details[open] summary {
+    border-bottom: 3px solid $yellow;
+    margin-bottom: .5rem;
+}
+
+.title__text {
+    margin-top: 3rem;
+}
+    
+.title__underline {
+    border-bottom: 3px solid $yellow;
+    width: 2.5rem;
+    margin: -1rem 0 2rem 0;
+}
+
+.content__lifeindarwin {
+    display: grid;
+    grid: repeat(1, auto) / auto-flow auto;
+  }
+
+@media all and (max-width: 768px) {
+    .content__lifeindarwin {
+      display: block;
+    }
+  }
+
+.content__lifeindarwin--bloc {
+    margin: 0 1rem;
+    padding: 0 1rem;
+    color: $white;
+}
+
+ul {
+    list-style: none;
+  }
+  
+ul li::before {
+    content: "\2022";
+    color: $yellow_faq;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+li {
+   margin-bottom: 2rem;
+}

@@ -1,0 +1,41 @@
+.menu__coworkerguide {
+  display: flex;
+}
+
+@media screen and (max-width: 700px) {
+  .menu__coworkerguide {
+    display: block;
+  }
+}
+
+.all__cards--coworkerguide {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+@media screen and (max-width: 700px) {
+  .all__cards--coworkerguide {
+    width: auto;
+  }
+}
+
+.card__menu--coworkerguide {
+  animation : card-appear 1.5s forwards;
+  background-color: $grey_card;
+  border-radius: 20px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.25);
+  color: $white;
+  justify-content: space-around;
+  margin: 1rem;
+  opacity: 0;
+  padding: 1rem;
+  height: 6rem;
+  width: 30rem;
+}
+
+.card__menu--coworkerguide:hover {
+  background-color: $yellow;  
+  transition: 0.5s;
+}

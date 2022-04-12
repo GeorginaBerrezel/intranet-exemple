@@ -1,0 +1,112 @@
+button {
+  align-items: center;
+  border: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+  
+button:hover {
+  color: $white;
+  transition: 0.5s;
+}
+
+/*BUTTONS page Imprimantes*/
+.button__printer {
+  display: flex;
+  justify-content: flex-start;
+  margin: 4rem 0;
+}
+
+@media screen and (max-width: 700px) {
+  .button__printer {
+    display: block;
+  }
+}
+  
+.connect__printer {
+  background-color: $yellow;
+  border: 1px solid $yellow;
+  border-radius: 50px;
+  color: $white;
+  display: block;
+  margin: 0 1rem 0 0;
+  padding: 1rem;
+  width: 200px;
+}
+
+.connect__printer:hover {
+  color: $yellow;
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 700px) {
+  .connect__printer {
+    margin: 0 1rem 1rem 0;
+    width: 100%;
+  }
+}
+  
+.connect:hover {
+  color: $grey_hover;
+}
+  
+.register__printer {
+  border: 1px solid $yellow;
+  border-radius: 50px;
+  color: $yellow;
+  display: block;
+  margin: 0 2rem 0 0;
+  padding: 1rem;
+  width: 200px;
+}
+
+.register__printer:hover {
+  background-color: $yellow;
+}
+
+.register:hover {
+  background-color: $yellow;
+  color: $grey_hover;
+}
+
+@media screen and (max-width: 700px) {
+  .register__printer {
+    width: 100%;
+  }
+}
+  
+/*BUTTONS CONNEXION de le page INDEX-OLD.HTML*/
+.button__connection {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+  
+.connect {
+  background-color: $yellow;
+  border: 1px solid $yellow;
+  border-radius: 50px;
+  color: $white;
+  display: block;
+  margin: 0rem 1rem 3rem 1rem;
+  padding: 1rem;
+}
+  
+.connect:hover {
+  color: $grey_hover;
+}
+  
+.register {
+  border: 1px solid $yellow;
+  border-radius: 50px;
+  color: $yellow;
+  display: block;
+  margin: 0 2rem 0 0;
+  padding: 1rem;
+}
